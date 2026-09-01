@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Vaanii</title>
+<meta name="description" content="Help and support for Vaanii, the Gujarati alphabet learning app by DreamCrafters Innovations. Contact us, FAQs, and troubleshooting.">
+<link rel="canonical" href="https://www.vaaniiapp.com/support/">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Support — Vaanii">
+<meta property="og:description" content="Help, FAQs and troubleshooting for the Vaanii Gujarati learning app.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.vaaniiapp.com/support/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📘</text></svg>">
+<style>
+  :root{
+    --bg:#ffffff; --bg-alt:#f6f7f9; --fg:#1a1d21; --fg-muted:#5b636d;
+    --rule:#e3e6ea; --accent:#1f5fbf; --accent-soft:#eaf1fc; --note-bar:#1f5fbf;
+    --warn-bg:#fdf4e7; --warn-bar:#c77700; --warn-fg:#6b4200;
+    --max:44rem;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#14171a; --bg-alt:#1c2024; --fg:#e8eaed; --fg-muted:#a2aab3;
+      --rule:#2c3238; --accent:#7fb0f5; --accent-soft:#1b2735; --note-bar:#7fb0f5;
+      --warn-bg:#2a2116; --warn-bar:#e0a44a; --warn-fg:#f0d5ab;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font:400 17px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    padding:0 1.25rem 5rem;
+  }
+  .wrap{max-width:var(--max); margin:0 auto}
+  header{padding:3.5rem 0 1.75rem; border-bottom:1px solid var(--rule); margin-bottom:2rem}
+  .eyebrow{
+    font-size:.75rem; letter-spacing:.11em; text-transform:uppercase;
+    color:var(--fg-muted); font-weight:600; margin:0 0 .6rem;
+  }
+  h1{font-size:2.1rem; line-height:1.2; margin:0 0 .9rem; letter-spacing:-.02em; font-weight:700}
+  .sub{font-size:1.05rem; color:var(--fg-muted); margin:0}
+  h2{
+    font-size:1.22rem; line-height:1.35; font-weight:650; letter-spacing:-.01em;
+    margin:2.75rem 0 .9rem;
+  }
+  h3{font-size:1.02rem; font-weight:650; margin:1.6rem 0 .45rem}
+  p{margin:0 0 1.05rem}
+  ul,ol{margin:0 0 1.05rem; padding-left:1.3rem}
+  li{margin:0 0 .5rem}
+  strong{font-weight:650}
+  a{color:var(--accent); text-decoration:underline; text-underline-offset:2px}
+  code{
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.88em;
+    background:var(--bg-alt); padding:.12em .38em; border-radius:4px; border:1px solid var(--rule);
+  }
+  .contact-card{
+    background:var(--accent-soft); border:1px solid var(--rule); border-left:3px solid var(--note-bar);
+    border-radius:0 8px 8px 0; padding:1.35rem 1.4rem; margin:0 0 1.25rem;
+  }
+  .contact-card .label{
+    font-size:.74rem; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--fg-muted); font-weight:600; margin:0 0 .5rem;
+  }
+  .contact-card .email{font-size:1.24rem; font-weight:650; margin:0 0 .55rem; word-break:break-word}
+  .contact-card .email a{text-decoration:none}
+  .contact-card .email a:hover{text-decoration:underline; text-underline-offset:3px}
+  .contact-card p:last-child{margin:0; font-size:.94rem; color:var(--fg-muted)}
+  .warn{
+    background:var(--warn-bg); border-left:3px solid var(--warn-bar); color:var(--warn-fg);
+    padding:1rem 1.15rem; border-radius:0 6px 6px 0; margin:0 0 1.25rem;
+  }
+  .warn p{margin:0}
+  .warn strong{color:var(--warn-fg)}
+  details{
+    border-bottom:1px solid var(--rule); padding:.15rem 0;
+  }
+  details summary{
+    cursor:pointer; list-style:none; padding:.95rem 1.9rem .95rem 0; position:relative;
+    font-weight:600; font-size:1rem; line-height:1.5;
+  }
+  details summary::-webkit-details-marker{display:none}
+  details summary::after{
+    content:""; position:absolute; right:.4rem; top:1.35rem;
+    width:.5rem; height:.5rem; border-right:2px solid var(--fg-muted); border-bottom:2px solid var(--fg-muted);
+    transform:rotate(45deg); transition:transform .18s ease;
+  }
+  details[open] summary::after{transform:rotate(-135deg); top:1.5rem}
+  details summary:hover{color:var(--accent)}
+  .answer{padding:0 0 1.05rem}
+  .answer p:last-child,.answer ul:last-child,.answer ol:last-child{margin-bottom:0}
+  .faq{margin:0 0 1.5rem; border-top:1px solid var(--rule)}
+  .steps{counter-reset:s; list-style:none; padding:0; margin:0 0 1.05rem}
+  .steps li{
+    counter-increment:s; position:relative; padding-left:2rem; margin-bottom:.7rem;
+  }
+  .steps li::before{
+    content:counter(s); position:absolute; left:0; top:.15rem;
+    width:1.4rem; height:1.4rem; border-radius:50%; background:var(--bg-alt);
+    border:1px solid var(--rule); font-size:.78rem; font-weight:650;
+    display:flex; align-items:center; justify-content:center; color:var(--fg-muted);
+  }
+  footer{
+    margin-top:3rem; padding-top:1.5rem; border-top:1px solid var(--rule);
+    font-size:.85rem; color:var(--fg-muted);
+  }
+  footer p{margin:0 0 .5rem}
+  footer .navlinks{margin-bottom:.9rem; font-size:.92rem}
+  footer .navlinks a{margin-right:1.1rem}
+  @media (max-width:36rem){
+    body{font-size:16px; padding:0 1rem 3.5rem}
+    header{padding-top:2.5rem}
+    h1{font-size:1.7rem}
+    .contact-card .email{font-size:1.05rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">DreamCrafters Innovations</p>
+  <h1>Vaanii — Support</h1>
+  <p class="sub">Help with the Vaanii Gujarati alphabet learning app. If your question isn’t answered below, email us and we’ll help.</p>
+</header>
+
+<main>
+
+<h2>Contact Us</h2>
+
+<div class="contact-card">
+  <p class="label">Support Email</p>
+  <p class="email"><a href="mailto:contactus@dreamcraftersinnovations.com">contactus@dreamcraftersinnovations.com</a></p>
+  <p>Please include your device model, iOS version, and a short description of the problem — it helps us resolve issues faster.</p>
+</div>
+
+<p>You can also write to us by post:</p>
+
+<p>
+  <strong>DreamCrafters Innovations</strong><br>
+  E3-623, Radhe Infinity, Raksha Shakti Cross Road,<br>
+  Kudasan, Gandhinagar, Gujarat 382426, India
+</p>
+
+<h2>About Vaanii</h2>
+
+<p>Vaanii helps children learn the <strong>Gujarati alphabet</strong> through interactive mini-games, quizzes, and letter-tracing activities. It is designed for young learners at home and in the classroom.</p>
+
+<p>The app works <strong>fully offline</strong>, contains <strong>no advertising</strong>, and requires <strong>no account or sign-in</strong>. Everything a child creates stays on the device.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Getting started</h3>
+<div class="faq">
+
+  <details>
+    <summary>Do I need to create an account or sign in?</summary>
+    <div class="answer">
+      <p>No. Vaanii has no accounts, logins, or passwords. You create a profile for your child directly in the app and start learning right away.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Does Vaanii need an internet connection?</summary>
+    <div class="answer">
+      <p>No. Vaanii works completely offline. Once the app is installed, no internet connection is required to play the games, take quizzes, or track progress.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Can more than one child use the same device?</summary>
+    <div class="answer">
+      <p>Yes. You can create a separate profile for each child, and each profile keeps its own learning progress, game history, and quiz results independently.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Is there any advertising in the app?</summary>
+    <div class="answer">
+      <p>No. Vaanii contains no advertisements of any kind, and no third-party advertising or tracking software.</p>
+    </div>
+  </details>
+
+</div>
+
+<h3>Progress and data</h3>
+<div class="faq">
+
+  <details>
+    <summary>Where is my child’s data stored?</summary>
+    <div class="answer">
+      <p>Entirely on your own device, inside the app’s private storage. Nothing is uploaded to us or to any third party. See our <a href="/privacy-policy/">Privacy Policy</a> for full details.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>How do I delete a child’s profile or data?</summary>
+    <div class="answer">
+      <p>You can delete an individual profile from within the app, which removes that profile’s data from the device.</p>
+      <p>To remove <em>everything</em>, uninstall the app. Uninstalling permanently deletes all locally stored data, including every profile, all learning progress, and all gameplay history.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>How do I move a child’s progress to a new device?</summary>
+    <div class="answer">
+      <p>Use the app’s backup and export feature to export the child’s learning data to a file, transfer that file to the new device, and import it there.</p>
+      <p>Do this <strong>before</strong> uninstalling the app or resetting the old device — once the app is removed, the data cannot be recovered.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Is my child’s progress backed up automatically?</summary>
+    <div class="answer">
+      <p>No. Because Vaanii stores everything on the device and never uploads it, there is no automatic cloud backup. If you want a copy of your child’s progress, export it using the backup feature and keep the file somewhere safe.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Can I correct a name or roll number I entered wrongly?</summary>
+    <div class="answer">
+      <p>Yes. Profile details can be edited directly in the app at any time.</p>
+    </div>
+  </details>
+
+</div>
+
+<h3>For teachers and schools</h3>
+<div class="faq">
+
+  <details>
+    <summary>Can Vaanii be used in a classroom?</summary>
+    <div class="answer">
+      <p>Yes. Vaanii is built with classroom use in mind. Each student can have their own profile with a name and roll number, and teachers can review progress on the device or export it for record-keeping.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Does student data leave the device or go to a server?</summary>
+    <div class="answer">
+      <p>No. In the current release, no student data is transmitted anywhere. All information stays on the device it was entered on. Our <a href="/privacy-policy/">Privacy Policy</a> describes exactly what is stored and how.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>We’re a school interested in deploying Vaanii. Who do we talk to?</summary>
+    <div class="answer">
+      <p>Email us at <a href="mailto:contactus@dreamcraftersinnovations.com">contactus@dreamcraftersinnovations.com</a> and tell us a little about your school and how many students you have in mind. We’re happy to help with rollout and answer procurement or data-protection questions.</p>
+    </div>
+  </details>
+
+</div>
+
+<h2>Troubleshooting</h2>
+
+<div class="warn">
+  <p><strong>Before you reinstall:</strong> deleting the app permanently erases all profiles and learning progress on that device. If the data matters, export a backup first — try the steps below before removing the app.</p>
+</div>
+
+<h3>The app won’t open, or closes unexpectedly</h3>
+<ol class="steps">
+  <li>Fully close the app (swipe it away from the app switcher) and open it again.</li>
+  <li>Restart your device.</li>
+  <li>Check the App Store for a Vaanii update and install it if one is available.</li>
+  <li>Make sure your device has some free storage space available.</li>
+  <li>If it still won’t open, email us with your device model and iOS version.</li>
+</ol>
+
+<h3>Audio isn’t playing</h3>
+<ol class="steps">
+  <li>Check that your device isn’t on silent, and turn the volume up.</li>
+  <li>Disconnect any Bluetooth headphones or speakers that may be capturing the sound.</li>
+  <li>Close and reopen the app.</li>
+</ol>
+
+<h3>Progress or a profile seems to be missing</h3>
+<ol class="steps">
+  <li>Check whether a different profile is selected — each child’s progress is stored separately under their own profile.</li>
+  <li>Confirm the app was not uninstalled and reinstalled, which erases all stored data.</li>
+  <li>If you exported a backup earlier, import it to restore that child’s progress.</li>
+  <li>Contact us if the data still doesn’t appear, and tell us what you were doing when it went missing.</li>
+</ol>
+
+<h3>Tracing or touch controls aren’t responding</h3>
+<ol class="steps">
+  <li>Clean the screen and remove any thick screen protector or case edge that overlaps the display.</li>
+  <li>Close and reopen the app.</li>
+  <li>Restart the device.</li>
+</ol>
+
+<h2>Report a Bug or Suggest a Feature</h2>
+
+<p>We read every message and genuinely welcome suggestions — new games, additional letters or words, or anything that would make Vaanii more useful for your child or classroom.</p>
+
+<p>Email <a href="mailto:contactus@dreamcraftersinnovations.com">contactus@dreamcraftersinnovations.com</a>. For bug reports, please tell us:</p>
+<ul>
+  <li>Your device model and iOS version</li>
+  <li>What you were doing when the problem happened</li>
+  <li>What you expected, and what happened instead</li>
+  <li>A screenshot or screen recording, if you can capture one</li>
+</ul>
+
+<h2>Privacy</h2>
+
+<p>Vaanii is built for children, and we take that seriously. We collect no personal information from children, transmit nothing off the device, show no advertising, and use no tracking. Read the full <a href="/privacy-policy/">Privacy Policy</a>.</p>
+
+</main>
+
+<footer>
+  <p class="navlinks">
+    <a href="/">Home</a>
+    <a href="/privacy-policy/">Privacy Policy</a>
+    <a href="mailto:contactus@dreamcraftersinnovations.com">Contact</a>
+  </p>
+  <p>Vaanii (<code>com.dreamcraftersinnovations.vaanii</code>) is developed and distributed by DreamCrafters Innovations.</p>
+  <p>© 2026 DreamCrafters Innovations. All rights reserved.</p>
+</footer>
+
+</div>
+</body>
+</html>
