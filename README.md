@@ -11,6 +11,7 @@ DreamCrafters Innovations (`com.dreamcraftersinnovations.vaanii`).
 | --- | --- |
 | `https://www.vaaniiapp.com/` | Landing page |
 | `https://www.vaaniiapp.com/privacy-policy/` | **Privacy Policy** — submit this URL to Google Play and App Store Connect |
+| `https://www.vaaniiapp.com/terms/` | **Terms & Conditions** — linked from the in-app consent screen |
 | `https://www.vaaniiapp.com/support/` | **Support** — submit this URL as the App Store Support URL |
 
 ## Files
@@ -20,6 +21,7 @@ CNAME                     custom domain (www.vaaniiapp.com)
 .nojekyll                 serve files as-is, no Jekyll build
 index.html                landing page
 privacy-policy/index.html the policy (source of truth for the live page)
+terms/index.html         terms & conditions
 support/index.html        support page: contact, FAQs, troubleshooting
 PRIVACY_POLICY.md         same text in Markdown, for reference/diffing
 404.html                  not-found page

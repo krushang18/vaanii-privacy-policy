@@ -1,162 +1,186 @@
 # Privacy Policy — Vaanii
 
-**Effective Date:** 22 August 2026
-**Last Updated:** 22 August 2026
+**Effective:** 2 September 2026
+**Version:** 2026-09-02
 
-**DreamCrafters Innovations** ("we", "us", "our") operates the **Vaanii** mobile application (the "App"). This Privacy Policy explains how we collect, use, store, and protect information when children and educators use the App.
-
-We are committed to protecting the privacy of children. This policy complies with applicable children's privacy laws, including the Children's Online Privacy Protection Act (COPPA) and the provisions of the General Data Protection Regulation (GDPR) relating to children's data.
-
----
-
-## 1. About the App
-
-Vaanii is a **Gujarati alphabet learning application** designed for children in school settings. It provides interactive mini-games, quizzes, and tracing activities to help children learn the Gujarati script.
-
-**Vaanii works entirely offline. All information created in the App stays on the device it was created on. Nothing is transmitted to us, to our servers, or to any third party.**
+> Markdown mirror of `privacy-policy/index.html`. The HTML is the source of
+> truth for the live page; keep this file in step when the policy changes, and
+> bump `kPrivacyPolicyVersion` in the app to match the version above.
 
 ---
 
-## 2. Information We Collect
+**Vaanii is used by children, so we keep this short and specific.** A parent creates the account, not the child. We show **no advertising**, take **no photographs** of your child, and collect **no location data**. We never sell your data, and we never use your child's learning data to target advertising.
 
-All information described below is stored **only on the device** and is never transmitted off it.
+This policy explains what the **Vaanii** app collects, why, who else receives it, and how you can see or delete it. It applies to the Vaanii app for Android and iOS (`com.dreamcraftersinnovations.vaanii`).
 
-### 2.1 Child Profile Information
+## 1. Who we are
 
-When a profile is created in the App, the following may be entered:
-
-- **Name** — the child's first name or display name
-- **Roll Number** — a school-assigned student identifier
-- **Profile Photo** (optional) — a photo taken by or on behalf of the child
-
-The profile photo is saved inside the App's private storage on the device. It is **not** uploaded anywhere, **not** added to the device's photo gallery, and **not** shared with us or anyone else.
-
-### 2.2 Learning & Gameplay Data
-
-The App records the following on the device to track learning progress:
-
-- **Learning progress** — current set, level, and step within the curriculum
-- **Game session data** — which game was played, start and end time, number of attempts, stars earned, mistakes made, rounds completed
-- **Answer events** — per-round responses including what was shown, what was selected, whether the answer was correct, and response time in milliseconds
-- **Quiz results** — quiz number, sets covered, pass/fail outcome, and associated game sessions
-- **Session duration** — time spans during which the App was actively in use per profile
-
-### 2.3 Device Information
-
-- **Device ID** — a randomly generated unique identifier (UUID) created on first launch and stored locally. It is **not** derived from any hardware identifier, is not shared with anyone, and cannot be used to identify the device outside the App.
-
-### 2.4 Information We Do NOT Collect
-
-- We do **not** collect email addresses, phone numbers, or physical addresses from children.
-- We do **not** collect location data (GPS or otherwise).
-- We do **not** use cookies, web beacons, or similar tracking technologies.
-- We do **not** use advertising identifiers, and the App contains **no advertising of any kind**.
-- We do **not** collect biometric data.
-- We do **not** create user accounts or require any sign-in.
-- The App contains **no third-party analytics, advertising, or tracking SDKs**.
-- We do **not** sell or rent personal information, and we never will.
-
----
-
-## 3. How Information Is Stored
-
-> **All data is stored locally on the child's device.**
-
-Information is stored in a local database within the App's private sandbox on the device. Under normal operating conditions, no other application on the device can access this data.
-
-- Data is **not** uploaded to any cloud service.
-- Data is **not** transmitted to DreamCrafters Innovations or to any third party.
-- The App functions fully offline — no internet connection is required to use it.
-
----
-
-## 4. Data Sharing
-
-**We do not share children's data with anyone.**
-
-Because the App does not transmit data off the device, there is no sharing with advertisers, data brokers, analytics providers, or any other third party.
-
-The only ways information can leave a device are actions taken deliberately by a teacher or administrator:
-
-- Using the **export/backup feature** described in Section 5.
-- Manually copying an exported file off the device.
-
-*Note on school reporting:* a school-server sync capability is **not enabled in this release** of the App and performs no network transmission. If we enable such a feature in a future version, we will update this Privacy Policy before it becomes active, and any data would go only to the school's own designated server — never to us or to a third party.
-
----
-
-## 5. Data Backup & Export
-
-The App provides a **backup and export feature** that allows an authorized adult (teacher or administrator) to export a child's learning data for record-keeping or transfer between devices. Exported files:
-
-- Contain profile information and gameplay history.
-- Are written to the device's local storage. They are not uploaded anywhere by the App.
-- Once exported, are under the control of the school and should be handled in accordance with the school's data protection policies.
-
----
-
-## 6. Children's Privacy (COPPA & GDPR-K)
-
-We take children's privacy seriously:
-
-- The App is designed for use **in a school setting under educator supervision**.
-- We do **not** collect more information than is reasonably necessary for a child to participate in the learning activities.
-- We do **not** condition a child's participation on the disclosure of more personal information than is reasonably necessary.
-- Because no personal information is ever transmitted to us, we do not hold, process, or have any access to children's data.
-- Where a school deploys Vaanii, the school and its educators act as the authorized agents of parents and guardians for the purposes of consent under COPPA, as permitted by the FTC's guidance on school-authorized use. Schools remain responsible for compliance with FERPA and applicable state student-privacy laws.
-- Parents and guardians have the rights described in Section 8.
-
----
-
-## 7. Data Security
-
-We implement reasonable technical safeguards to protect the information stored by the App:
-
-- All data is stored within the App's **private application sandbox**, isolated from other applications by the operating system.
-- Database access is restricted to the App itself.
-- The App requests only the permissions it needs to function and does not request push notification, cloud messaging, location, contacts, or microphone access.
-- No personal data is transmitted over the network.
-
-No method of electronic storage is completely secure, but because data never leaves the device, the risk surface is limited to the device itself.
-
----
-
-## 8. Parental Rights
-
-Parents and guardians have the following rights regarding their child's information:
-
-- **Access** — You may review the personal information held about your child by opening the child's profile in the App on the device, or by asking the school or App administrator.
-- **Correction** — Profile details can be edited or corrected directly in the App.
-- **Deletion** — You may request that your child's data be deleted. A profile can be deleted from within the App, and **uninstalling the App permanently deletes all locally stored data**. You may also contact us using the details in Section 11.
-- **Refusal of further collection** — You may ask the school to stop your child's use of the App at any time, which ends any further collection.
-
-Because we never receive your child's data, requests for access or deletion are fulfilled on the device itself; we are glad to help you or your school do so.
-
----
-
-## 9. Data Retention
-
-- Data remains on the device for as long as the App is installed and the profile exists.
-- Deleting a profile removes that profile's data from the device.
-- **Uninstalling the App permanently deletes all locally stored data**, including profiles, learning progress, and gameplay history.
-- We retain no copies, because we never receive any data.
-
----
-
-## 10. Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time. We will notify users of any material changes by updating the "Last Updated" date at the top of this policy and, where practicable, by providing notice within the App. Material changes affecting the collection or use of children's data will be made before the change takes effect.
-
----
-
-## 11. Contact Us
-
-If you have questions or concerns about this Privacy Policy or the App's data practices, please contact us at:
+**DreamCrafters Innovations** ("Vaanii", "we", "us") is a partnership firm in India. Under India's **Digital Personal Data Protection Act, 2023** we are the **Data Fiduciary** for the Vaanii app.
 
 **DreamCrafters Innovations**
-Email: dci@dreamcraftersinnovations.com
-Address: E3-623, Radhe Infinity, Raksha Shakti Cross Road, Kudasan, Gandhinagar, Gujarat 382426, India
+E3-623, Radhe Infinity, Raksha Shakti Cross Road, Kudasan, Gandhinagar, Gujarat 382426, India
+Email: contactus@dreamcraftersinnovations.com
+GSTIN: 24ABAFD0172H1ZY
 
----
+**Grievance Officer:** Krushang Shah · contactus@dreamcraftersinnovations.com · address as above. We acknowledge every complaint within **48 hours** and aim to resolve it within **one month**.
 
-*This Privacy Policy applies to the Vaanii application (package: `com.dreamcraftersinnovations.vaanii`) developed and distributed by DreamCrafters Innovations.*
+## 2. What we collect about you, the parent
+
+- **Your name** — so we can address you, and to keep it distinct from your child's profile name.
+- **Your mobile number or email address** — to sign you in and recover your account. We verify it with a one-time code.
+- **Your Google or Apple sign-in identifier**, if you use one of those buttons.
+- **Your birth year** — asked once, at sign-up, because the law requires us to take reasonable steps to confirm an adult is setting up the account before we process a child's data.
+- **Your consent record** — which version of this policy you agreed to, when, and the IP address at that moment. We keep this because the law requires us to be able to prove consent was given, and a record that can be quietly rewritten proves nothing.
+- **Your subscription details** — your plan, its status and dates, and the transaction identifier from Google or Apple. **We never see your card number.** Google and Apple process the payment and only tell us whether it succeeded.
+
+## 3. What we collect about your device
+
+- A **randomly generated installation identifier** created on first launch. It is not your hardware ID and not an advertising ID, and it cannot identify your device outside our app.
+- **Device model, platform, operating-system version and app version** — for support, and to show you which devices are signed in to your account.
+- A **push notification token**, if you allow notifications.
+
+## 4. What we collect about your child
+
+- **A profile name** — a first name or a nickname is fine, and we suggest a nickname.
+- **A difficulty level** — Beginner, Basic or Advanced, chosen by you. **We do not ask for your child's age or date of birth.**
+- **An avatar** — one of four preset cartoon characters. **We do not take, ask for, or store any photograph of your child.**
+- **Learning progress** — which set and level they have reached, stars earned, levels completed.
+- **Practice results** — how many attempts and how many were correct for each Gujarati letter, and which pairs of letters your child tends to mix up. This is what lets the app give more practice on the letters they find hard.
+- **Quiz results** — attempts, pass or fail, and when.
+- **Time played** — daily minutes, for your reports and any daily limit you set.
+- **Streaks, badges and coins** — the in-app rewards.
+
+### What stays on the device and never reaches us
+
+The **detailed round-by-round record** — every individual question shown, every option your child tapped, whether it was right, and how long they took — is stored **only in the app's private storage on your device**. It is never uploaded. It powers the reports you see on your own screen.
+
+Only the **summary figures** listed above reach our servers, so your child's progress survives a lost or replaced phone.
+
+### Guest mode
+
+You can try Vaanii without an account. In guest mode the profile you create and everything your child does **stays on the device**. Nothing about your child is sent to us until you choose to sign in and give consent.
+
+## 5. Speech practice
+
+If your child uses the speaking exercises, their **voice is captured while they speak and sent to a speech-recognition service** to check the pronunciation:
+
+- **On Android** — the speech recognition built into the Android operating system, provided by Google.
+- **On iPhone and iPad** — **Google Cloud Speech-to-Text**, because Apple's built-in recogniser does not support Gujarati. The audio is sent to Google's servers, which are outside India.
+
+**We never store your child's voice.** The audio is processed to return a pronunciation result and is not saved by Vaanii. We keep only a daily count of how many times the feature was used, to enforce your plan's limit.
+
+Speech practice is **optional** and is available only on certain paid plans. You give consent for it separately, and the rest of the app works fully without it.
+
+## 6. What we do not collect
+
+- **No advertising.** There are no ads in Vaanii and no advertising software in the app.
+- No location data of any kind.
+- No contacts, calendar, photos, files or messages.
+- No advertising identifier.
+- No photograph of your child.
+- No age or date of birth for your child.
+- No email address or phone number belonging to a child — the account is yours.
+- We do **not** sell personal data, and we do not share it with data brokers.
+- We do **not** use your child's learning data to target advertising, build marketing profiles, or optimise how long they stay in the app.
+
+## 7. Why we process it
+
+| Purpose | Basis |
+|---|---|
+| Create and secure your account | Your consent |
+| Run the learning app and save your child's progress | Your consent, as the parent or guardian |
+| Adapt the curriculum to your child | Your consent — this is the service you asked for |
+| Show you progress reports | Your consent |
+| Enforce a daily time limit you set | Your consent |
+| Speech practice | Your separate, optional consent |
+| Take payment and manage your subscription | Our contract with you |
+| Service messages — one-time codes, receipts, policy changes | Contract / legitimate use |
+| Optional reminders and streak notifications | Your consent |
+| Diagnose crashes and keep the service secure | Legitimate use |
+
+## 8. Children
+
+Indian law treats anyone under 18 as a child and requires the verifiable consent of a parent or legal guardian before their personal data is processed. So:
+
+- **A parent creates the account, not the child.**
+- We ask you to confirm you are the parent or legal guardian and to give your birth year, and we record that confirmation together with the exact version of this policy you were shown.
+- **We do not track or profile your child for advertising.** Their practice results are used for one thing: choosing which letter to teach next.
+- **We collect as little as we can** — no photograph, no location, no age, no contact details for the child.
+- **You can see everything, correct it, or delete it** — see section 11.
+
+## 9. Who else receives it
+
+We share personal data only with service providers who process it on our instruction, and never for their own purposes.
+
+| Provider | What they receive | Where |
+|---|---|---|
+| Google — Firebase Authentication | Sign-in identifiers | Global |
+| Google — Firebase Cloud Messaging | Push token, notification content | Global |
+| Google — Firebase Crashlytics | Crash diagnostics and device state | Global |
+| Google — Firebase Remote Config | App configuration requests | Global |
+| Google — Android speech recognition | Spoken audio during speech exercises | Per Google |
+| **Google Cloud Speech-to-Text** (iOS only) | **Spoken audio during speech exercises** | United States |
+| Google Play Billing / Apple StoreKit | Purchase and subscription state | Global |
+| Apple — Sign in with Apple | Sign-in identifier | United States |
+| MSG91 | Your mobile number and the one-time code | India |
+| Cloudflare R2 | Learning content and worksheets — no personal data | Global |
+| [[HOSTING PROVIDER — NAME BEFORE PUBLISHING]] | Account, profile and progress data | [[REGION]] |
+
+We may also disclose personal data where the law requires it, to a court or lawful authority, or to establish or defend a legal claim.
+
+**Transfers outside India.** Some of the providers above process data outside India. Indian law permits this except to countries the Government restricts by notification, and we comply with any such restriction if one is made.
+
+## 10. How long we keep it
+
+| What | How long |
+|---|---|
+| Your account and your child's profiles | While your account is open |
+| After you ask us to delete | **30 days**, then permanently erased |
+| Consent records | Kept after erasure as proof that our processing was lawful |
+| Billing and tax records | As long as Indian tax law requires |
+| One-time codes | 10 minutes |
+| Sign-in sessions | 90 days from last use |
+| Security and access logs | At least 1 year |
+| Data stored on your device | Until you delete the profile or uninstall the app |
+
+## 11. Your rights
+
+At any time you may:
+
+- **Access** — get a summary of the personal data we hold about you and your child, and who we have shared it with.
+- **Correct, complete, update or erase** — including all of your child's data.
+- **Withdraw consent** — as easily as you gave it, from Settings in the app. **Because your child's progress cannot be saved without it, withdrawing consent will delete that progress**, and we will tell you so clearly before you confirm.
+- **Nominate** another person to exercise these rights on your behalf if you die or become incapacitated.
+- **Complain** — to our Grievance Officer above. If you are not satisfied, you may complain to the **Data Protection Board of India**.
+
+**Deleting your account:** Settings → Delete Account, inside the app. We confirm with a one-time code, then erase everything after a 30-day grace period. Deleting your account does not automatically cancel a subscription bought through Google or Apple — cancel that separately in your app store.
+
+## 12. Security
+
+- Everything travels over encrypted connections (TLS).
+- Data on your device sits in the app's private storage, isolated by the operating system from other apps.
+- We use no passwords — you sign in with a one-time code or with Google or Apple. One-time codes are stored hashed, never in plain text.
+- Sign-in tokens rotate, and reuse of an old token revokes the whole session.
+- Access to production data is restricted and logged.
+- **If a data breach affects you, we will tell you**, and we report it to the Data Protection Board of India as the law requires.
+
+No system is perfectly secure, and we do not claim otherwise.
+
+## 13. Users outside India
+
+Vaanii is currently offered in India. If you use it from elsewhere: we do not knowingly collect personal information from a child without the verifiable consent of a parent or guardian, and a parent may review their child's information, refuse further collection, and require deletion by contacting us at the address above.
+
+## 14. Schools
+
+This policy covers the Vaanii app you download from Google Play or the App Store. The separate **Vaanii School edition**, preinstalled on classroom tablets, is governed by the agreement between DreamCrafters Innovations and the school that deployed it. Parents of children in a school deployment should direct requests to the school in the first instance, and we will support the school in answering them.
+
+## 15. Changes to this policy
+
+We will post any change here and update the version and effective date. If a change is material we will tell you in the app and, where the law requires it, ask for your consent again rather than assume the old one carries over.
+
+## 16. Contact
+
+**DreamCrafters Innovations**
+E3-623, Radhe Infinity, Raksha Shakti Cross Road, Kudasan, Gandhinagar, Gujarat 382426, India
+Email: contactus@dreamcraftersinnovations.com
+Grievance Officer: Krushang Shah
