@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete Your Account — Vaanii</title>
+<meta name="description" content="How to delete your Vaanii account and data, in the app or by email. What is deleted, what is kept, and for how long. Vaanii is developed by DreamCrafters Innovations.">
+<link rel="canonical" href="https://www.vaaniiapp.com/delete-account/">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Delete Your Account — Vaanii">
+<meta property="og:description" content="How to delete your Vaanii account and your child's data, and what we keep afterwards.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.vaaniiapp.com/delete-account/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📘</text></svg>">
+<style>
+  :root{
+    --bg:#ffffff; --bg-alt:#f6f7f9; --fg:#1a1d21; --fg-muted:#5b636d;
+    --rule:#e3e6ea; --accent:#1f5fbf; --accent-soft:#eaf1fc; --note-bar:#1f5fbf;
+    --warn-bg:#fdf4e7; --warn-bar:#c77700; --warn-fg:#6b4200;
+    --max:44rem;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#14171a; --bg-alt:#1c2024; --fg:#e8eaed; --fg-muted:#a2aab3;
+      --rule:#2c3238; --accent:#7fb0f5; --accent-soft:#1b2735; --note-bar:#7fb0f5;
+      --warn-bg:#2a2116; --warn-bar:#e0a44a; --warn-fg:#f0d5ab;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font:400 17px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    padding:0 1.25rem 5rem;
+  }
+  .wrap{max-width:var(--max); margin:0 auto}
+  header{padding:3.5rem 0 1.75rem; border-bottom:1px solid var(--rule); margin-bottom:2rem}
+  .eyebrow{
+    font-size:.75rem; letter-spacing:.11em; text-transform:uppercase;
+    color:var(--fg-muted); font-weight:600; margin:0 0 .6rem;
+  }
+  h1{font-size:2.1rem; line-height:1.2; margin:0 0 .9rem; letter-spacing:-.02em; font-weight:700}
+  .sub{font-size:1.05rem; color:var(--fg-muted); margin:0 0 .9rem}
+  .dates{font-size:.9rem; color:var(--fg-muted); margin:0}
+  h2{
+    font-size:1.22rem; line-height:1.35; font-weight:650; letter-spacing:-.01em;
+    margin:2.75rem 0 .9rem;
+  }
+  h3{font-size:1.02rem; font-weight:650; margin:1.6rem 0 .45rem}
+  p{margin:0 0 1.05rem}
+  ul,ol{margin:0 0 1.05rem; padding-left:1.3rem}
+  li{margin:0 0 .5rem}
+  strong{font-weight:650}
+  a{color:var(--accent); text-decoration:underline; text-underline-offset:2px}
+  code{
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.88em;
+    background:var(--bg-alt); padding:.12em .38em; border-radius:4px; border:1px solid var(--rule);
+  }
+  .contact-card{
+    background:var(--accent-soft); border:1px solid var(--rule); border-left:3px solid var(--note-bar);
+    border-radius:0 8px 8px 0; padding:1.35rem 1.4rem; margin:0 0 1.25rem;
+  }
+  .contact-card .label{
+    font-size:.74rem; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--fg-muted); font-weight:600; margin:0 0 .5rem;
+  }
+  .contact-card .email{font-size:1.24rem; font-weight:650; margin:0 0 .55rem; word-break:break-word}
+  .contact-card .email a{text-decoration:none}
+  .contact-card .email a:hover{text-decoration:underline; text-underline-offset:3px}
+  .contact-card p:last-child{margin:0; font-size:.94rem; color:var(--fg-muted)}
+  .warn{
+    background:var(--warn-bg); border-left:3px solid var(--warn-bar); color:var(--warn-fg);
+    padding:1rem 1.15rem; border-radius:0 6px 6px 0; margin:0 0 1.25rem;
+  }
+  .warn p{margin:0}
+  .warn strong{color:var(--warn-fg)}
+  .steps{counter-reset:s; list-style:none; padding:0; margin:0 0 1.05rem}
+  .steps li{
+    counter-increment:s; position:relative; padding-left:2rem; margin-bottom:.7rem;
+  }
+  .steps li::before{
+    content:counter(s); position:absolute; left:0; top:.15rem;
+    width:1.4rem; height:1.4rem; border-radius:50%; background:var(--bg-alt);
+    border:1px solid var(--rule); font-size:.78rem; font-weight:650;
+    display:flex; align-items:center; justify-content:center; color:var(--fg-muted);
+  }
+  .tablewrap{overflow-x:auto; margin:0 0 1.4rem}
+  table{border-collapse:collapse; width:100%; font-size:.94rem}
+  th,td{text-align:left; padding:.6rem .7rem; border-bottom:1px solid var(--rule); vertical-align:top}
+  th{font-weight:650; color:var(--fg-muted); font-size:.8rem; letter-spacing:.04em; text-transform:uppercase}
+  tbody tr:last-child td{border-bottom:0}
+  footer{
+    margin-top:3rem; padding-top:1.5rem; border-top:1px solid var(--rule);
+    font-size:.85rem; color:var(--fg-muted);
+  }
+  footer p{margin:0 0 .5rem}
+  footer .navlinks{margin-bottom:.9rem; font-size:.92rem}
+  footer .navlinks a{margin-right:1.1rem}
+  @media (max-width:36rem){
+    body{font-size:16px; padding:0 1rem 3.5rem}
+    header{padding-top:2.5rem}
+    h1{font-size:1.7rem}
+    .contact-card .email{font-size:1.05rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">DreamCrafters Innovations</p>
+  <h1>Vaanii — Delete Your Account</h1>
+  <p class="sub">How to delete your <strong>Vaanii</strong> account and your child’s data, what we delete, and what we have to keep.</p>
+  <p class="dates"><strong>App:</strong> Vaanii (<code>com.dreamcraftersinnovations.vaanii</code>) · <strong>Developer:</strong> DreamCrafters Innovations · <strong>Last updated:</strong> 15 September 2026</p>
+</header>
+
+<main>
+
+<div class="warn">
+  <p><strong>Deleting your account is permanent.</strong> Your account, every child profile, and all of their progress, stars and badges are erased and <strong>cannot be recovered</strong>. Deleting your account also <strong>does not cancel a Google Play or App Store subscription</strong>. Cancel that separately first (see <a href="#subscriptions">below</a>).</p>
+</div>
+
+<h2 id="in-app">Option 1: Delete in the app (fastest)</h2>
+
+<ol class="steps">
+  <li>Open <strong>Vaanii</strong> and sign in to the account you want to delete.</li>
+  <li>Go to <strong>Settings</strong> and tap <strong>Delete Account</strong>.</li>
+  <li>Read the on-screen summary, then enter the <strong>one-time code</strong> we send to your registered mobile number or email.</li>
+  <li>Your account and all its data are deleted <strong>immediately</strong>.</li>
+</ol>
+
+<h2 id="by-email">Option 2: Request deletion by email</h2>
+
+<p>You can use this if you’ve uninstalled Vaanii, lost your device, or can’t get into the app.</p>
+
+<div class="contact-card">
+  <p class="label">Send your request to</p>
+  <p class="email"><a href="mailto:contactus@dreamcraftersinnovations.com?subject=Account%20Deletion%20Request">contactus@dreamcraftersinnovations.com</a></p>
+  <p>Subject line: <code>Account Deletion Request</code></p>
+</div>
+
+<ol class="steps">
+  <li>Email us with the subject <strong>Account Deletion Request</strong>. Include the <strong>mobile number or email address registered</strong> to your Vaanii account. If you sign in with Google or Apple, give the email address of that Google or Apple account.</li>
+  <li>To confirm the request is really yours, we send a <strong>one-time code to that registered number or email</strong>. Reply to us with the code.</li>
+  <li>Once you’ve confirmed, we delete your account and all its data <strong>within 7 days</strong> and email you when it’s done.</li>
+</ol>
+
+<p>We never ask for your password, since Vaanii doesn’t use one. We never ask for card or bank details either.</p>
+
+<h2 id="deleted">Data that is deleted</h2>
+
+<p>When your account is deleted, we permanently erase from our servers:</p>
+
+<ul>
+  <li><strong>Your account details:</strong> your name, mobile number, email address, and Google or Apple sign-in identifier.</li>
+  <li><strong>Every child profile:</strong> profile name, age and chosen avatar.</li>
+  <li><strong>All learning data:</strong> levels and sets reached, per-letter practice results, letters your child mixes up, quiz results, daily play time, and streaks, badges and coins.</li>
+  <li><strong>Speech practice usage counts.</strong> We never store your child’s voice in the first place.</li>
+  <li><strong>Your devices and sessions:</strong> installation identifiers, device model and OS details, push notification tokens and all sign-in sessions. Every device is signed out.</li>
+  <li><strong>App settings:</strong> daily time limits and notification preferences.</li>
+</ul>
+
+<p>Data that exists only on your phone or tablet, such as guest-mode profiles and the detailed round-by-round record, is removed when you <strong>uninstall the app</strong>. That data is never uploaded to us.</p>
+
+<h2 id="retained">Data we keep, and for how long</h2>
+
+<p>The law requires us to keep a small amount of data after deletion. None of it includes your child’s profile or learning data.</p>
+
+<div class="tablewrap">
+<table>
+  <thead><tr><th>What we keep</th><th>Why</th><th>How long</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><strong>Subscription and transaction records:</strong> order ID, plan, amount and dates. Your name, phone number and email are removed from them.</td>
+      <td>Indian tax and accounting law (Income Tax Act, GST)</td>
+      <td>Up to <strong>8 years</strong>, then deleted</td>
+    </tr>
+    <tr>
+      <td><strong>Consent records:</strong> which policy version you agreed to, when, and the IP address at that moment</td>
+      <td>To prove our processing was lawful, as required by the Digital Personal Data Protection Act, 2023</td>
+      <td>For as long as the law requires this proof</td>
+    </tr>
+    <tr>
+      <td><strong>Security and access logs</strong></td>
+      <td>To protect the service and investigate misuse, as required by law</td>
+      <td>At least <strong>1 year</strong>, then deleted</td>
+    </tr>
+    <tr>
+      <td><strong>Crash reports</strong> (Firebase Crashlytics)</td>
+      <td>To diagnose app crashes</td>
+      <td>Deleted automatically within <strong>90 days</strong></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2 id="delete-some-data">Deleting some data without deleting your account</h2>
+
+<ul>
+  <li><strong>Delete one child’s profile:</strong> you can delete a single child profile in the app. That child’s progress, stars and badges are erased <strong>immediately and permanently</strong>. Your account and other profiles are untouched.</li>
+  <li><strong>Stop saving new data:</strong> withdraw your consent from <strong>Settings</strong>. We stop processing your child’s learning data, but what is already saved stays on our servers. You can give consent again at any time. To erase saved data, delete the profile or the account.</li>
+  <li><strong>Turn off speech practice:</strong> withdraw the separate speech-practice consent in Settings. The rest of the app keeps working.</li>
+  <li><strong>By email:</strong> you can also ask us to delete specific data, such as one child’s profile, by emailing <a href="mailto:contactus@dreamcraftersinnovations.com">contactus@dreamcraftersinnovations.com</a>. We use the same one-time code check and the same 7-day timeline as above.</li>
+</ul>
+
+<h2 id="subscriptions">Subscriptions</h2>
+
+<p>Subscriptions are billed by Google or Apple, so <strong>deleting your Vaanii account does not stop the payments</strong>. Cancel first:</p>
+<ul>
+  <li><strong>Android:</strong> Google Play → your profile → Payments and subscriptions → Subscriptions → Vaanii → Cancel.</li>
+  <li><strong>iOS:</strong> Settings → your name → Subscriptions → Vaanii → Cancel.</li>
+</ul>
+
+<h2>Questions</h2>
+
+<p>If you have a question about deleting your data, or a complaint, email <a href="mailto:contactus@dreamcraftersinnovations.com">contactus@dreamcraftersinnovations.com</a> or write to our Grievance Officer, <strong>Krushang Shah</strong>, at DreamCrafters Innovations, E3-623, Radhe Infinity, Raksha Shakti Cross Road, Kudasan, Gandhinagar, Gujarat 382426, India. We acknowledge every complaint within 48 hours. For full details, see our <a href="/privacy-policy/">Privacy Policy</a>.</p>
+
+</main>
+
+<footer>
+  <p class="navlinks">
+    <a href="/">Home</a>
+    <a href="/privacy-policy/">Privacy Policy</a>
+    <a href="/terms/">Terms &amp; Conditions</a>
+    <a href="/support/">Support</a>
+    <a href="mailto:contactus@dreamcraftersinnovations.com">Contact</a>
+  </p>
+  <p>Vaanii (<code>com.dreamcraftersinnovations.vaanii</code>) is developed and distributed by DreamCrafters Innovations.</p>
+  <p>© 2026 DreamCrafters Innovations. All rights reserved.</p>
+</footer>
+
+</div>
+</body>
+</html>
