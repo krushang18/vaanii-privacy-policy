@@ -98,8 +98,8 @@
   <p class="eyebrow">DreamCrafters Innovations</p>
   <h1>Vaanii — Privacy Policy</h1>
   <p class="dates">
-    <span><strong>Effective:</strong> 2 September 2026</span>
-    <span><strong>Version:</strong> 2026-09-02</span>
+    <span><strong>Effective:</strong> 3 October 2026</span>
+    <span><strong>Version:</strong> 2026-10-03</span>
   </p>
 </header>
 
@@ -172,12 +172,12 @@
 <p>If your child uses the speaking exercises, their <strong>voice is captured while they speak and sent to a speech-recognition service</strong> to check the pronunciation:</p>
 
 <ul>
-  <li><strong>On Android</strong> — the speech recognition built into the Android operating system, provided by Google.</li>
-  <li><strong>On iPhone and iPad</strong> — <strong>Google Cloud Speech-to-Text</strong>, because Apple’s built-in recogniser does not support Gujarati. The audio is sent to Google’s servers, which are outside India.</li>
+  <li><strong>On Android devices with Google services</strong> — the speech recognition built into the device, provided by Google.</li>
+  <li><strong>On iPhone and iPad, and on Android devices without Google’s recogniser</strong> — the audio is sent to our server, which passes it to <strong>Sarvam AI</strong>, a speech-recognition provider in India, and returns the text. Apple’s built-in recogniser does not support Gujarati, which is why iPhone and iPad use this route.</li>
 </ul>
 
 <div class="callout">
-  <p><strong>We never store your child’s voice.</strong> The audio is processed to return a pronunciation result and is not saved by Vaanii. We keep only a daily count of how many times the feature was used, to enforce your plan’s limit.</p>
+  <p><strong>We never store your child’s voice.</strong> The audio is processed to return a pronunciation result and is not saved by Vaanii or by Sarvam AI on our behalf. Where it goes through our server, we keep only <strong>how many minutes</strong> of speech practice each child has used in the current month, to enforce your plan’s allowance.</p>
 </div>
 
 <p>Speech practice is <strong>optional</strong> and is available only on certain paid plans. <strong>You give consent for it separately from the consent that covers the rest of the app</strong> — it is recorded as its own permission, you can withdraw it on its own, and everything else keeps working if you do. The rest of Vaanii works fully without ever turning it on.</p>
@@ -212,6 +212,7 @@
     <tr><td>Service messages — one-time codes, receipts, policy changes</td><td>Contract / legitimate use</td></tr>
     <tr><td>Optional reminders and streak notifications</td><td>Your consent</td></tr>
     <tr><td>Diagnose crashes and keep the service secure</td><td>Legitimate use</td></tr>
+    <tr><td>Understand which parts of the app are used, to improve it (usage analytics with no advertising identifier)</td><td>Legitimate use</td></tr>
   </tbody>
 </table>
 </div>
@@ -224,7 +225,7 @@
   <li><strong>A parent creates the account, not the child.</strong> The account, the sign-in and the consent are all yours.</li>
   <li>We ask you to confirm you are the parent or legal guardian, and we record that confirmation together with the exact version of this policy you were shown.</li>
   <li><strong>We do not track or profile your child for advertising.</strong> Their practice results are used for one thing: choosing which letter to teach next.</li>
-  <li><strong>We collect as little as we can</strong> — no photograph, no location, no age, no contact details for the child.</li>
+  <li><strong>We collect as little as we can</strong> — no photograph, no location, no date of birth, no contact details for the child.</li>
   <li><strong>You can see everything, correct it, or delete it</strong> — see section 11.</li>
 </ul>
 
@@ -238,15 +239,15 @@
   <tbody>
     <tr><td>Google — Firebase Authentication</td><td>Sign-in identifiers</td><td>Global</td></tr>
     <tr><td>Google — Firebase Cloud Messaging</td><td>Push token, notification content</td><td>Global</td></tr>
-    <tr><td>Google — Firebase Crashlytics</td><td>Crash diagnostics and device state</td><td>Global</td></tr>
-    <tr><td>Google — Firebase Remote Config</td><td>App configuration requests</td><td>Global</td></tr>
-    <tr><td>Google — Android speech recognition</td><td>Spoken audio during speech exercises</td><td>Per Google</td></tr>
-    <tr><td><strong>Google Cloud Speech-to-Text</strong> (iOS only)</td><td><strong>Spoken audio during speech exercises</strong></td><td>United States</td></tr>
+    <tr><td>Google — Firebase Crashlytics</td><td>Crash diagnostics, device state and your account identifier</td><td>Global</td></tr>
+    <tr><td>Google — Firebase Analytics</td><td>App usage events (for example, which screens are opened) and whether the app is used as a guest — no advertising identifier, no child’s name</td><td>Global</td></tr>
+    <tr><td>Google — Android speech recognition</td><td>Spoken audio during speech exercises (Android devices with Google services)</td><td>Per Google</td></tr>
+    <tr><td><strong>Sarvam AI</strong></td><td><strong>Spoken audio during speech exercises</strong> (iPhone, iPad, and Android devices without Google’s recogniser)</td><td>India</td></tr>
     <tr><td>Google Play Billing / Apple StoreKit</td><td>Purchase and subscription state</td><td>Global</td></tr>
     <tr><td>Apple — Sign in with Apple</td><td>Sign-in identifier</td><td>United States</td></tr>
     <tr><td>MSG91</td><td>Your mobile number and the one-time code</td><td>India</td></tr>
     <tr><td>Cloudflare R2</td><td>Learning content and worksheets — no personal data</td><td>Global</td></tr>
-    <tr><td>Hostinger</td><td>Account, profile and progress data — our servers and database</td><td>India</td></tr>
+    <tr><td>Google Cloud</td><td>Account, profile and progress data — our servers and database</td><td>India (Mumbai)</td></tr>
     <tr><td>GitHub Pages</td><td>This website only. Serves these pages and logs the usual web-server request data (IP address, browser). <strong>No account, profile or learning data.</strong></td><td>Global</td></tr>
   </tbody>
 </table>

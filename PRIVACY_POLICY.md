@@ -1,7 +1,7 @@
 # Privacy Policy — Vaanii
 
-**Effective:** 2 September 2026
-**Version:** 2026-09-02
+**Effective:** 3 October 2026
+**Version:** 2026-10-03
 
 > Markdown mirror of `privacy-policy/index.html`. The HTML is the source of
 > truth for the live page; keep this file in step when the policy changes, and
@@ -64,10 +64,10 @@ You can try Vaanii without an account. In guest mode the profile you create and 
 
 If your child uses the speaking exercises, their **voice is captured while they speak and sent to a speech-recognition service** to check the pronunciation:
 
-- **On Android** — the speech recognition built into the Android operating system, provided by Google.
-- **On iPhone and iPad** — **Google Cloud Speech-to-Text**, because Apple's built-in recogniser does not support Gujarati. The audio is sent to Google's servers, which are outside India.
+- **On Android devices with Google services** — the speech recognition built into the device, provided by Google.
+- **On iPhone and iPad, and on Android devices without Google's recogniser** — the audio is sent to our server, which passes it to **Sarvam AI**, a speech-recognition provider in India, and returns the text. Apple's built-in recogniser does not support Gujarati, which is why iPhone and iPad use this route.
 
-**We never store your child's voice.** The audio is processed to return a pronunciation result and is not saved by Vaanii. We keep only a daily count of how many times the feature was used, to enforce your plan's limit.
+**We never store your child's voice.** The audio is processed to return a pronunciation result and is not saved by Vaanii or by Sarvam AI on our behalf. Where it goes through our server, we keep only **how many minutes** of speech practice each child has used in the current month, to enforce your plan's allowance.
 
 Speech practice is **optional** and is available only on certain paid plans. You give consent for it separately, and the rest of the app works fully without it.
 
@@ -78,7 +78,7 @@ Speech practice is **optional** and is available only on certain paid plans. You
 - No contacts, calendar, photos, files or messages.
 - No advertising identifier.
 - No photograph of your child.
-- No age or date of birth for your child.
+- No date of birth for your child — we ask only for their age in years (see section 4).
 - No email address or phone number belonging to a child — the account is yours.
 - We do **not** sell personal data, and we do not share it with data brokers.
 - We do **not** use your child's learning data to target advertising, build marketing profiles, or optimise how long they stay in the app.
@@ -97,6 +97,7 @@ Speech practice is **optional** and is available only on certain paid plans. You
 | Service messages — one-time codes, receipts, policy changes | Contract / legitimate use |
 | Optional reminders and streak notifications | Your consent |
 | Diagnose crashes and keep the service secure | Legitimate use |
+| Understand which parts of the app are used, to improve it (usage analytics with no advertising identifier) | Legitimate use |
 
 ## 8. Children
 
@@ -105,7 +106,7 @@ Indian law treats anyone under 18 as a child and requires the verifiable consent
 - **A parent creates the account, not the child.**
 - We ask you to confirm you are the parent or legal guardian and to give your birth year, and we record that confirmation together with the exact version of this policy you were shown.
 - **We do not track or profile your child for advertising.** Their practice results are used for one thing: choosing which letter to teach next.
-- **We collect as little as we can** — no photograph, no location, no age, no contact details for the child.
+- **We collect as little as we can** — no photograph, no location, no date of birth, no contact details for the child.
 - **You can see everything, correct it, or delete it** — see section 11.
 
 ## 9. Who else receives it
@@ -116,15 +117,15 @@ We share personal data only with service providers who process it on our instruc
 |---|---|---|
 | Google — Firebase Authentication | Sign-in identifiers | Global |
 | Google — Firebase Cloud Messaging | Push token, notification content | Global |
-| Google — Firebase Crashlytics | Crash diagnostics and device state | Global |
-| Google — Firebase Remote Config | App configuration requests | Global |
-| Google — Android speech recognition | Spoken audio during speech exercises | Per Google |
-| **Google Cloud Speech-to-Text** (iOS only) | **Spoken audio during speech exercises** | United States |
+| Google — Firebase Crashlytics | Crash diagnostics, device state and your account identifier | Global |
+| Google — Android speech recognition | Spoken audio during speech exercises (Android devices with Google services) | Per Google |
+| Google — Firebase Analytics | App usage events (for example, which screens are opened) and whether the app is used as a guest — no advertising identifier, no child's name | Global |
+| **Sarvam AI** | **Spoken audio during speech exercises** (iPhone, iPad, and Android devices without Google's recogniser) | India |
 | Google Play Billing / Apple StoreKit | Purchase and subscription state | Global |
 | Apple — Sign in with Apple | Sign-in identifier | United States |
 | MSG91 | Your mobile number and the one-time code | India |
 | Cloudflare R2 | Learning content and worksheets — no personal data | Global |
-| [[HOSTING PROVIDER — NAME BEFORE PUBLISHING]] | Account, profile and progress data | [[REGION]] |
+| Google Cloud | Account, profile and progress data — our servers and database | India (Mumbai) |
 
 We may also disclose personal data where the law requires it, to a court or lawful authority, or to establish or defend a legal claim.
 
