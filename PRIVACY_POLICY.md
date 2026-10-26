@@ -45,7 +45,7 @@ GSTIN: 24ABAFD0172H1ZY
 ## 4. What we collect about your child
 
 - **A profile name** — a first name or a nickname is fine, and we suggest a nickname. It is shown in the app and on your progress reports.
-- **Your child’s age** — a whole number of years, asked when you create their profile. We use it to pitch the content, and — with the name and everything else stripped away — to group learning statistics into broad age bands so we can see which letters children of a similar age find hard. **We do not ask for a date of birth.**
+- **Your child’s age band** — 3–5, 6–10 or 11+, chosen when you create their profile. We never ask for the exact age. We use it to pitch the content, and — with the name and everything else stripped away — to see which letters children of a similar age find hard. **We do not ask for a date of birth.**
 - **An avatar** — one of four preset cartoon characters. **We do not take, ask for, or store any photograph of your child.**
 - **Learning progress** — which set and level they have reached, stars earned, levels completed.
 - **Practice results** — how many attempts and how many were correct for each Gujarati letter, and which pairs of letters your child tends to mix up. This is what lets the app give more practice on the letters they find hard. It is the core of what Vaanii is for.
@@ -79,7 +79,7 @@ Speech practice is **optional** and is available only on certain paid plans. **Y
 - No contacts, calendar, photos, files or messages.
 - No advertising identifier.
 - No photograph of your child.
-- No date of birth for your child — we ask only for their age in years (see section 4).
+- No date of birth or exact age for your child — we ask only for an age band (see section 4).
 - No email address or phone number belonging to a child — the account is yours.
 - We do **not** sell personal data, and we do not share it with data brokers.
 - We do **not** use your child’s learning data to target advertising, build marketing profiles, or optimise how long they stay in the app.
