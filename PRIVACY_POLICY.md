@@ -119,7 +119,7 @@ We share personal data only with service providers who process it on our instruc
 |---|---|---|
 | Google — Firebase Authentication | Sign-in identifiers | Global |
 | Google — Firebase Cloud Messaging | Push token, notification content | Global |
-| Google — Firebase Crashlytics | Crash diagnostics, device state and your account identifier | Global |
+| Google — Firebase Crashlytics | Crash diagnostics, device state, your account identifier and your child’s profile identifier (a random ID, not their name) | Global |
 | Google — Firebase Analytics | App usage events (for example, which screens are opened) and whether the app is used as a guest — no advertising identifier, no child’s name | Global |
 | Google — Android speech recognition | Spoken audio during speech exercises (Android devices with Google services) | Per Google |
 | **Sarvam AI** | **Spoken audio during speech exercises** (iPhone, iPad, and Android devices without Google’s recogniser) | India |
